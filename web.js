@@ -3,17 +3,12 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send(
-      var fs = require('fs');
-      var content;
-      var data = fs.readFile('./index.html', function (err, data) {
-	  if (err) {
-	      throw err;
-	  }
-	  content = data;
-	  console.log(content);
-      };
-);
+    var fs = require('fs');
+    var buffer = new buffer(fs.readFileSync('./index.html'), 'utf-8');
+    response.send(buf.toString(buffer));
+});
+
+//  response.send('Hello Wordl 2!');});
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
