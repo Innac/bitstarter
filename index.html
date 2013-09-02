@@ -92,32 +92,25 @@
       /*Banner*/
       .brand {
         padding-right: 50px;
+      
       }
       .container a.brand{
         font-family: 'Comfortaa', Helvetica, Arial, sans-serif;
         font-size:24px;
-        color: #173D7B;
+        color: #f07c0a;
       }
       .banner-bk {
-        margin: 0;
-      background: url('http://img27.imageshack.us/img27/4272/27jq.jpg');
-      background-size: 1349px 321px;
-      background-repeat:no-repeat;
-      display: compact;
-        border-bottom: 3px solid #4283AA;
-      }
-      .banner {
-        margin: 0 auto 100px auto;
-        height: 340px;
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-      }
+      width: 1349px;
+      margin: 0 auto;
+      border-bottom: #e0d4c4;
+        }
       .inner-banner {
         margin-top: 150px;
       }
-      .inner-banner h1 {
+      .inner-banner h1, .name {
         font-family: 'Comfortaa', cursive;
         font-weight: normal;
-        color: #173D7B;
+        color: #f07c0a;
       }     
 
       /*Video pitch and Action*/
@@ -125,7 +118,7 @@
         text-align: none;
       }
       .pitch {
-        padding: 2.5% 0%;
+        padding: 5% 0%;
       }
       .order {
         padding: 2% 0%;
@@ -200,18 +193,15 @@
        }
     </style>
     <!-- Google Analytics -->
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-43063165-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-43063165-1');
+      ga('send', 'pageview');
+      
     </script>
     <!-- End Google Analytics -->
   </head>
@@ -225,7 +215,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">activFITS</a>
+          <a class="brand" href="#">activfits</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -240,12 +230,7 @@
     <div class="full-width-container">
       <!--BANNER-->
       <div class="banner-bk">
-        <div class="banner span12">
-          <div class="span5 offset7 inner-banner">
-            <h1>activFITS</h1>
-            <p class="lead">helps the elderly stay healthy, active and connected</p>
-          </div>
-        </div>
+          <img class="banner-img" src="http://img59.imageshack.us/img59/2539/2jyz.jpg" width="1349px" height="340px">
       </div>
 
       <!--CONTAINER-->
@@ -255,7 +240,9 @@
         <div class = "row-fluid pitch">
 
           <!--VIDEO-->
-          <div class = "span6 video"><iframe src="http://player.vimeo.com/video/55073825?title=0&amp;badge=0" width="570" height="301" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div> 
+          <div class = "span6 video">
+          <img src="http://img843.imageshack.us/img843/7472/l2ne.jpg" alt="Space for video"width="540" height="300">
+          </div> 
             
           <!--ACTIONS-->
           <div class = "span6 actions">
@@ -293,7 +280,7 @@
               </div>
               <div class="row-fluid">
                 <div class="span6 offset3 order">
-		  <!--Bitcoin button.-->
+                    <!--Bitcoin button.-->
                     <a class="coinbase-button" data-code="a6ce055b27c6bacc2a9f7f2627d5e024" data-button-style="custom_small" href="https://coinbase.com/checkouts/a6ce055b27c6bacc2a9f7f2627d5e024">Pay With Bitcoin</a>
                     <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
                 </div>
@@ -319,27 +306,41 @@
         <!--MARKETING COPY-->
         <div class="row-fluid section1">
           <div class="span6 asset">
-            <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/570x300">
+              <img src="http://img14.imageshack.us/img14/7455/xjez.jpg" alt="Creating profile" width="540" height="300">
           </div>
           <div class="span6 copy">
             <p>
-              Elders are not a tribe that has to stay at home and wait for the end. One day we all going to be a part of that tribe and it does not mean that when we reach a certain age we have to abandon active, healthy and social lifestyle. If you have health issues or just want to stay fit, activFITS helps you find a perfect training program a perfect fit, to enhance you daily life and overall health, whether it is outside walks or exercising whilst sitting on the chair. We all know that exercising helps us to enjoy energetic independent life, but activeFITS helps you improve with professional help and make new acquaintances and be a part of community.</p>
-          </div>
+              When people get older the exercise becomes non-existent or a rare activity only practiced by a few, despite well-known facts that regular physical activity has many health and lifestyle benefits. People with active lifestyle feel healthier and are less likely to suffer from heart disease, stroke, cancer or diabetes. If you want to get healthier and stay fit <span class="name">activfits</span> helps you find a perfect training program, a perfect fit to enhance your daily life and overall health, whether it is outside walks, swimming, jogging, Tai Chi or exercising whilst sitting on the chair. </div>
         </div><!--end of section1-->
 
         <div class = "row-fluid section2">
           <div class = "span6 copy copy-right">
-            <p>
-              WHAT IS ACTIVFITS?
-activFITS is a source for fitness and health that is created to suit the needs of the elderly. You just have to set your preferences and a personal training program will be generated, with lots of recommendations, exercising videos with access to professional help. It also encourages people to look for exercise buddies, organize and share sports events and share their stories.  activFITS offers an easy and inexpensive way to track your health, set goals , get professional help.
+          <h2>WHAT IS <span class="name">ACTIVFITS?</span></h2>
+	    <p>We all know that exercising helps us to enjoy energetic independent life, but <span class="name">activfits</span> helps you track your sports activities, improve with professional help, make new acquaintances and be a part of internet community. It is a source for fitness and health that is created to suit the needs of the elderly. You just have to set your preferences and a personal training program will be generated, with lots of recommendations, exercising videos and access to training, nutrition and many other professionals. Everyone is also encouraged to look for exercise buddies, organize sports and health events and share stories. 
             </p>
           </div>
           <div class="span6 asset">
-            <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/570x300">
+            <img src="http://img716.imageshack.us/img716/3145/snup.jpg" alt="Recommendations" width="540" height="300">
           </div>
         </div><!--end of section2-->
 
-
+	<div class="row-fluid section3">
+          <div class="span6 asset">
+              <img src="http://img194.imageshack.us/img194/7284/orhl.jpg" alt="Tracking app" width="540" height="300">
+          </div>
+          <div class="span6 copy">
+	          <h2>HOW DOES IT WORK?</h2>
+		    <p>Just create an account, download our health tracking apps or sync other tracking devices with our website. To get personalized training suggestions you have to take a test and answer a few simple questions like: "How often would you like to exercise?". All users get access to articles about health and fitness in older age, suggestions about exercise rutines and nutrition. You will be able to upload daily information from tracking devises and set personal goals. Data will be analysed and saved to help track the progress of your active life: performance, weight, heart rate, etc. You will also get recommendations on how to improve. Premium users will get access to hundreds of videos and exercise programs specialy created for elders. 
+          </div>
+        </div><!--end of section3-->
+        
+        <div class="row-fluid section4">
+          <div class="span12">
+            <h2>INTERESTED?</h2>
+            <p>Help us kickstart <span class="name">activfits</span>! Currently we are working very hard to make this idea become a reality and any contribution will be highly appreciated. At the moment you can support us through Bitcoin and get a free Activfits membership or share our idea on Twitter and we will send you a massive hug! If you have any questions or suggestions on how we could improve our product, please don't hesitate and contact us at hello@activfits.com</p>
+            </div>
+        </div><!--end of section4-->
+        
         <!--FAQ-->
         <div class="row-fluid faq">
           <div class ="span12">
